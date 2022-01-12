@@ -4,14 +4,13 @@ import ComA from "./ComA";
 const FirstName = createContext();
 const LastName = createContext();
 
-const App=()=>{
+const App = () => {
     return (
         <FirstName.Provider value={"Diksha"}>
             <LastName.Provider value={"Pandit"}>
                 <ComA />
             </LastName.Provider>
-        </FirstName.Provider>
-        
+        </FirstName.Provider>      
     );
 }
 
